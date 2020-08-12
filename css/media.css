@@ -1,0 +1,291 @@
+@media screen and (max-width: 1286px) {
+  /* Team */
+
+  .team-inner__master {
+    margin-bottom: 100px;
+  }
+
+  /* Table */
+
+  .table-inner {
+    flex-direction: column;
+  }
+
+  .table-inner__form-btn {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .table-inner__img,
+  .table-inner__form {
+    margin: 0 auto;
+  }
+
+  .table-inner__form-input,
+  .table-inner__form-textarea {
+    width: 100%;
+  }
+
+  .table-inner__form {
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  /* Banner */
+
+  .banner {
+    background: none;
+  }
+
+  /* Service */
+
+  .service-inner {
+    justify-content: center;
+  }
+
+  .service-inner__img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Post */
+
+  .post-inner {
+    justify-content: center;
+    padding: 27px 0 50px;
+  }
+
+  .post-inner__card {
+    margin: 20px;
+  }
+
+  /* Contact */
+
+  .contact-left,
+  .contact__form-right {
+    margin: 0 auto;
+  }
+
+  .contact-inner {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  /* Info */
+
+  .banner__img {
+    display: none;
+  }
+
+  /* Banner */
+
+  .banner {
+    background: none;
+  }
+
+  .banner-inner {
+    padding: 64px 0px 46px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  /* Testimonials */
+
+  .testimonials {
+    text-align: center;
+    padding: 68px 0 60px;
+  }
+
+  /* Team */
+
+  .team {
+    padding: 66px 0 77px;
+  }
+
+  /* Table */
+
+  .table-inner__img {
+    width: 100%;
+  }
+
+  /* Contact */
+
+  .contact-left__info {
+    padding-bottom: 23px;
+  }
+
+  .contact-inner {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 756px) {
+  /* Header */
+
+  .header__nav {
+    padding-left: 0;
+  }
+
+  .menu {
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: -100%;
+    width: 75%;
+    height: 100vh;
+    background-color: #efe3e1f1;
+    transition: 0.6s all;
+  }
+
+  .menu_active {
+    left: 0;
+  }
+
+  .menu:nth-child(1) {
+    padding-left: 0;
+    font-size: 20px;
+  }
+
+  .hamburger {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 50px;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 24px;
+  }
+
+  .hamburger__line {
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: #db6955;
+    margin-bottom: 5px;
+    transition: 0.5s all;
+  }
+
+  .hamburger_active .hamburger__line {
+    margin-bottom: -3px;
+  }
+
+  .hamburger_active .hamburger__line:nth-child(1) {
+    transform: translateY(3px) rotate(-45deg);
+  }
+
+  .hamburger_active .hamburger__line:nth-child(2) {
+    display: none;
+  }
+
+  .hamburger_active .hamburger__line:nth-child(3) {
+    transform: translateY(3px) rotate(45deg);
+  }
+
+  .header__nav-link {
+    padding: 10px 0;
+  }
+
+  /* Table  */
+
+  .table-inner__form-btn {
+    padding: 18px 18px;
+  }
+
+  /* Contact  */
+
+  .contact {
+    padding: 50px 0;
+  }
+}
+
+@media screen and (max-width: 567px) {
+  /* Banner  */
+
+  .banner-inner__title {
+    font-size: 50px;
+  }
+
+  /* Team  */
+
+  .team-inner__links {
+    transform: translateY(10px);
+    opacity: 1;
+  }
+
+  /* Contact  */
+
+  .contact__form-right__input,
+  .contact__form-right__textarea {
+    width: 100%;
+  }
+
+  /* Footer  */
+
+  .footer-inner__links {
+    display: block;
+  }
+
+  .footer-inner__link {
+    margin: 0 0 15px 0;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  /* Banner  */
+  .banner-inner__title {
+    font-size: 35px;
+  }
+
+  .banner-inner {
+    background: none;
+  }
+
+  /* Service */
+
+  .service-top__title {
+    font-size: 28px;
+  }
+
+  /* Post  */
+
+  .post-inner__card-subtitle {
+    padding-bottom: 16px;
+  }
+
+  .post-inner__card-text {
+    line-height: 21px;
+    padding: 0px 35px 25px 35px;
+  }
+
+  .post-inner__card {
+    max-width: 360px;
+    text-align: center;
+    padding: 20px 0 30px;
+  }
+
+  .post-inner__card {
+    margin: 15px;
+  }
+
+  /* Team  */
+
+  .team-inner__name {
+    font-size: 14px;
+  }
+
+  .team-inner__message {
+    font-size: 12px;
+  }
+
+  .team-inner__link {
+    border: 0;
+    border-radius: 0;
+    padding: 0;
+    margin-right: 0;
+  }
+}
