@@ -46,7 +46,7 @@ p {
 /* Header */
 .header {
   position: fixed;
-  background-color: #fffffffa;
+  background-color: #f07f7c;
   width: 100%;
   top: 0;
   left: 0;
@@ -55,7 +55,7 @@ p {
 
 .header-inner {
   display: flex;
-  padding-top: 20px;
+  padding: 0 0 50px 0;
 }
 
 .menu {
@@ -82,7 +82,7 @@ p {
 }
 
 .header__nav:hover {
-  color: #ff817e;
+  color: #fff;
 }
 
 /* Banner */
