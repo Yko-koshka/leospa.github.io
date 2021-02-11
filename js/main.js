@@ -28,7 +28,7 @@ const slides = document.querySelectorAll(".testimonials-inner"),
   dots = document.querySelectorAll(".dot");
 
 function showSlides(n) {
-  if (n > slides.length) {
+  if (n > slides.length - 1) {
     currentSlideIndex = 0;
   }
   if (n < 0) {
